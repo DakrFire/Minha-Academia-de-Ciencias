@@ -1,0 +1,33 @@
+.container {
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.card {
+    border: solid;
+    border-radius: 10px;
+    border-color: #0ea5e9;
+    padding: 10px;
+}
+
+.title {
+    color: #0ea5e9;
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.avatar {
+    color: #0ea5e9
+}
+
+.comment {
+    font-size: 14px;
+}
+

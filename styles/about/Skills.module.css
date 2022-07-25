@@ -1,0 +1,195 @@
+.container {
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+
+
+.box {
+    padding-bottom: 50px;
+    border-bottom: solid #e5e7eb 4px;
+    margin-bottom: 50px;
+}
+
+.title {
+    font-size: 35px;
+    color: #0ea5e9;
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+
+.chemistry {
+    font-size: 25px;
+    color:#6366f1;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.math {
+    font-size: 25px;
+    color:#f43f5e;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.physical {
+    font-size: 25px;
+    color:#f97316;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.biology {
+    font-size: 25px;
+    color:#14b8a6;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 60px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.field {
+    padding-bottom: 2px;
+    font-size: 14px;
+}
+
+.porcent {
+    padding-right: 20px;
+    font-size: 14px;
+}
+
+.tab {
+    width: 350px;
+    background-color:#e5e7eb;
+    border-radius: 5px;
+}
+
+.chemistryProgress1 {
+    width: 100%;
+    background-color: #818cf8;
+    border-radius: 5px;
+}
+
+.chemistryProgress2 {
+    width: 80%;
+    background-color: #818cf8;
+    border-radius: 5px;
+}
+
+.chemistryProgress3 {
+    width: 60%;
+    background-color: #818cf8;
+    border-radius: 5px;
+}
+
+.chemistryProgress4 {
+    width: 40%;
+    background-color: #818cf8;
+    border-radius: 5px;
+}
+
+.mathProgress1 {
+    width: 100%;
+    background-color: #fb7185;
+    border-radius: 5px;
+}
+
+.mathProgress2 {
+    width: 80%;
+    background-color: #fb7185;
+    border-radius: 5px;
+}
+
+.mathProgress3 {
+    width: 60%;
+    background-color: #fb7185;
+    border-radius: 5px;
+}
+
+.mathProgress4 {
+    width: 40%;
+    background-color: #fb7185;
+    border-radius: 5px;
+}
+
+.physicalProgress1 {
+    width: 100%;
+    background-color: #fb923c;
+    border-radius: 5px;
+}
+
+.physicalProgress2 {
+    width: 80%;
+    background-color: #fb923c;
+    border-radius: 5px;
+}
+
+.physicalProgress3 {
+    width: 60%;
+    background-color: #fb923c;
+    border-radius: 5px;
+}
+
+.physicalProgress4 {
+    width: 40%;
+    background-color: #fb923c;
+    border-radius: 5px;
+}
+
+.biologyProgress1 {
+    width: 100%;
+    background-color: #2dd4bf;
+    border-radius: 5px;
+}
+
+.biologyProgress2 {
+    width: 80%;
+    background-color: #2dd4bf;
+    border-radius: 5px;
+}
+
+.biologyProgress3 {
+    width: 60%;
+    background-color: #2dd4bf;
+    border-radius: 5px;
+}
+
+.biologyProgress4 {
+    width: 40%;
+    background-color: #2dd4bf;
+    border-radius: 5px;
+}
+
+.chemistryDash {
+    align-items: center;
+    color: #818cf8;
+    font-size: x-large;
+}
+
+.mathDash {
+    align-items: center;
+    color: #fb7185;
+    font-size: x-large;
+}
+
+.physicalDash {
+    align-items: center;
+    color: #fb923c;
+    font-size: x-large;
+}
+
+.biologyDash {
+    align-items: center;
+    color: #2dd4bf;
+    font-size: x-large;
+}

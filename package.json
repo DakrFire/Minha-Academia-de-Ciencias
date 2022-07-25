@@ -1,0 +1,28 @@
+{
+  "name": "minha-academia-de-ciencias",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DakrFire/Minha-Academia-de-Ciencias.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DakrFire/Minha-Academia-de-Ciencias/issues"
+  },
+  "homepage": "https://github.com/DakrFire/Minha-Academia-de-Ciencias#readme",
+  "dependencies": {
+    "gray-matter": "^4.0.3",
+    "next": "^12.2.3",
+    "next-mdx-remote": "^4.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-syntax-highlighter": "^15.5.0"
+  }
+}

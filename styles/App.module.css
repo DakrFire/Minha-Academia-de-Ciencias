@@ -1,0 +1,15 @@
+.container {
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #e0f2fe;
+}
+
+@media (max-width: 980px) {
+
+    .container {
+        padding-left: 10px;
+        padding-right: 10px;
+        background-color: #e0f2fe;
+    }
+
+}
