@@ -31,3 +31,20 @@
     font-size: 14px;
 }
 
+@media (max-width: 980px) {
+
+    .container {
+        width: 100%;
+        display: inline;
+        text-align: center;
+
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+}
+

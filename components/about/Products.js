@@ -10,13 +10,16 @@ const Products = () => {
         <div>
             <h1 className={styles.title}> Nosso E-book </h1>
             <div className={styles.container}>
+                <div className={styles.boxImage}>
                 <Image
+                    className={styles.image}
                     src='/Livro-3D.png'
                     alt="thumbnail"
                     width={400}
                     height={700}
                     objectFit="cover"
                 />
+                </div>
                 <div className={styles.box}>
                     <p className={styles.description}>
                      Ao adquirir esse e-book, você finalmente entenderá a grande maioria dos assuntos básicos relacionados

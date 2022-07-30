@@ -1,16 +1,20 @@
+
 import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
 import Post from '../components/Post'
 
 import styles from "../styles/Index.module.css"
+import Image from 'next/image'
 
 const Home = ({ posts }) => {
   return (
-    <div className={styles.container}>
-      {posts.map((post, index) => (
-        <Post key={index} post={post} />
-      ))}
+    <div>
+      <div className={styles.container}>
+        {posts.map((post, index) => (
+          <Post key={index} post={post} />
+        ))}
+      </div>
     </div>
   )
 }

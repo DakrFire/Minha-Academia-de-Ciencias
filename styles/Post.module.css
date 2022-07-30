@@ -40,3 +40,24 @@
     justify-content: center;
 
 }
+
+@media (max-width: 540px) {
+
+    .date {
+        font-size: large;
+        margin-top: 5px;
+        text-align: center;
+    }
+    
+    .title {
+        font-size: x-large ;
+        font-weight: bold;
+    }
+    
+    .excerpt {
+        font-size: 12px;
+        padding-top: 5px;
+        padding-bottom: 10px;
+    }
+
+}

@@ -193,3 +193,27 @@
     color: #2dd4bf;
     font-size: x-large;
 }
+
+@media (max-width: 1200px) {
+
+    .grid {
+        background-color: #e0f2fe;
+        font-weight: 500;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 980px) {
+
+    .grid {
+        background-color: #e0f2fe;
+        font-weight: 500;
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+
+}
